@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EDF3E31C19762C007D5BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDF3E21C19762C007D5BE2 /* AppDelegate.swift */; };
+		84EDF3E51C19762C007D5BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDF3E41C19762C007D5BE2 /* ViewController.swift */; };
+		84EDF3E81C19762C007D5BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EDF3E61C19762C007D5BE2 /* Main.storyboard */; };
+		84EDF3EA1C19762C007D5BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EDF3E91C19762C007D5BE2 /* Assets.xcassets */; };
+		84EDF3ED1C19762C007D5BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EDF3EB1C19762C007D5BE2 /* LaunchScreen.storyboard */; };
+		84EDF3F81C19762D007D5BE2 /* InvertBTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDF3F71C19762D007D5BE2 /* InvertBTTests.swift */; };
+		84EDF4031C19762D007D5BE2 /* InvertBTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDF4021C19762D007D5BE2 /* InvertBTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EDF3F41C19762D007D5BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EDF3D71C19762C007D5BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EDF3DE1C19762C007D5BE2;
+			remoteInfo = InvertBT;
+		};
+		84EDF3FF1C19762D007D5BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EDF3D71C19762C007D5BE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EDF3DE1C19762C007D5BE2;
+			remoteInfo = InvertBT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EDF3DF1C19762C007D5BE2 /* InvertBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvertBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EDF3E21C19762C007D5BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EDF3E41C19762C007D5BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84EDF3E71C19762C007D5BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EDF3E91C19762C007D5BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EDF3EC1C19762C007D5BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EDF3EE1C19762C007D5BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EDF3F31C19762D007D5BE2 /* InvertBTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvertBTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EDF3F71C19762D007D5BE2 /* InvertBTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBTTests.swift; sourceTree = "<group>"; };
+		84EDF3F91C19762D007D5BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EDF3FE1C19762D007D5BE2 /* InvertBTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvertBTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EDF4021C19762D007D5BE2 /* InvertBTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertBTUITests.swift; sourceTree = "<group>"; };
+		84EDF4041C19762D007D5BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EDF3DC1C19762C007D5BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EDF3F01C19762D007D5BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EDF3FB1C19762D007D5BE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EDF3D61C19762C007D5BE2 = {
+			isa = PBXGroup;
+			children = (
+				84EDF3E11C19762C007D5BE2 /* InvertBT */,
+				84EDF3F61C19762D007D5BE2 /* InvertBTTests */,
+				84EDF4011C19762D007D5BE2 /* InvertBTUITests */,
+				84EDF3E01C19762C007D5BE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EDF3E01C19762C007D5BE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EDF3DF1C19762C007D5BE2 /* InvertBT.app */,
+				84EDF3F31C19762D007D5BE2 /* InvertBTTests.xctest */,
+				84EDF3FE1C19762D007D5BE2 /* InvertBTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EDF3E11C19762C007D5BE2 /* InvertBT */ = {
+			isa = PBXGroup;
+			children = (
+				84EDF3E21C19762C007D5BE2 /* AppDelegate.swift */,
+				84EDF3E41C19762C007D5BE2 /* ViewController.swift */,
+				84EDF3E61C19762C007D5BE2 /* Main.storyboard */,
+				84EDF3E91C19762C007D5BE2 /* Assets.xcassets */,
+				84EDF3EB1C19762C007D5BE2 /* LaunchScreen.storyboard */,
+				84EDF3EE1C19762C007D5BE2 /* Info.plist */,
+			);
+			path = InvertBT;
+			sourceTree = "<group>";
+		};
+		84EDF3F61C19762D007D5BE2 /* InvertBTTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EDF3F71C19762D007D5BE2 /* InvertBTTests.swift */,
+				84EDF3F91C19762D007D5BE2 /* Info.plist */,
+			);
+			path = InvertBTTests;
+			sourceTree = "<group>";
+		};
+		84EDF4011C19762D007D5BE2 /* InvertBTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84EDF4021C19762D007D5BE2 /* InvertBTUITests.swift */,
+				84EDF4041C19762D007D5BE2 /* Info.plist */,
+			);
+			path = InvertBTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EDF3DE1C19762C007D5BE2 /* InvertBT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EDF4071C19762D007D5BE2 /* Build configuration list for PBXNativeTarget "InvertBT" */;
+			buildPhases = (
+				84EDF3DB1C19762C007D5BE2 /* Sources */,
+				84EDF3DC1C19762C007D5BE2 /* Frameworks */,
+				84EDF3DD1C19762C007D5BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvertBT;
+			productName = InvertBT;
+			productReference = 84EDF3DF1C19762C007D5BE2 /* InvertBT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EDF3F21C19762D007D5BE2 /* InvertBTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EDF40A1C19762D007D5BE2 /* Build configuration list for PBXNativeTarget "InvertBTTests" */;
+			buildPhases = (
+				84EDF3EF1C19762D007D5BE2 /* Sources */,
+				84EDF3F01C19762D007D5BE2 /* Frameworks */,
+				84EDF3F11C19762D007D5BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EDF3F51C19762D007D5BE2 /* PBXTargetDependency */,
+			);
+			name = InvertBTTests;
+			productName = InvertBTTests;
+			productReference = 84EDF3F31C19762D007D5BE2 /* InvertBTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84EDF3FD1C19762D007D5BE2 /* InvertBTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EDF40D1C19762D007D5BE2 /* Build configuration list for PBXNativeTarget "InvertBTUITests" */;
+			buildPhases = (
+				84EDF3FA1C19762D007D5BE2 /* Sources */,
+				84EDF3FB1C19762D007D5BE2 /* Frameworks */,
+				84EDF3FC1C19762D007D5BE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EDF4001C19762D007D5BE2 /* PBXTargetDependency */,
+			);
+			name = InvertBTUITests;
+			productName = InvertBTUITests;
+			productReference = 84EDF3FE1C19762D007D5BE2 /* InvertBTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EDF3D71C19762C007D5BE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					84EDF3DE1C19762C007D5BE2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					84EDF3F21C19762D007D5BE2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84EDF3DE1C19762C007D5BE2;
+					};
+					84EDF3FD1C19762D007D5BE2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84EDF3DE1C19762C007D5BE2;
+					};
+				};
+			};
+			buildConfigurationList = 84EDF3DA1C19762C007D5BE2 /* Build configuration list for PBXProject "InvertBT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EDF3D61C19762C007D5BE2;
+			productRefGroup = 84EDF3E01C19762C007D5BE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EDF3DE1C19762C007D5BE2 /* InvertBT */,
+				84EDF3F21C19762D007D5BE2 /* InvertBTTests */,
+				84EDF3FD1C19762D007D5BE2 /* InvertBTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EDF3DD1C19762C007D5BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDF3ED1C19762C007D5BE2 /* LaunchScreen.storyboard in Resources */,
+				84EDF3EA1C19762C007D5BE2 /* Assets.xcassets in Resources */,
+				84EDF3E81C19762C007D5BE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EDF3F11C19762D007D5BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EDF3FC1C19762D007D5BE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EDF3DB1C19762C007D5BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDF3E51C19762C007D5BE2 /* ViewController.swift in Sources */,
+				84EDF3E31C19762C007D5BE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EDF3EF1C19762D007D5BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDF3F81C19762D007D5BE2 /* InvertBTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EDF3FA1C19762D007D5BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDF4031C19762D007D5BE2 /* InvertBTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EDF3F51C19762D007D5BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EDF3DE1C19762C007D5BE2 /* InvertBT */;
+			targetProxy = 84EDF3F41C19762D007D5BE2 /* PBXContainerItemProxy */;
+		};
+		84EDF4001C19762D007D5BE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EDF3DE1C19762C007D5BE2 /* InvertBT */;
+			targetProxy = 84EDF3FF1C19762D007D5BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EDF3E61C19762C007D5BE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EDF3E71C19762C007D5BE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EDF3EB1C19762C007D5BE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EDF3EC1C19762C007D5BE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EDF4051C19762D007D5BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84EDF4061C19762D007D5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EDF4081C19762D007D5BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InvertBT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.InvertBT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EDF4091C19762D007D5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InvertBT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.InvertBT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84EDF40B1C19762D007D5BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvertBTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.InvertBTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvertBT.app/InvertBT";
+			};
+			name = Debug;
+		};
+		84EDF40C1C19762D007D5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InvertBTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.InvertBTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InvertBT.app/InvertBT";
+			};
+			name = Release;
+		};
+		84EDF40E1C19762D007D5BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvertBTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.InvertBTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InvertBT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84EDF40F1C19762D007D5BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InvertBTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lee.InvertBTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InvertBT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EDF3DA1C19762C007D5BE2 /* Build configuration list for PBXProject "InvertBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EDF4051C19762D007D5BE2 /* Debug */,
+				84EDF4061C19762D007D5BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EDF4071C19762D007D5BE2 /* Build configuration list for PBXNativeTarget "InvertBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EDF4081C19762D007D5BE2 /* Debug */,
+				84EDF4091C19762D007D5BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EDF40A1C19762D007D5BE2 /* Build configuration list for PBXNativeTarget "InvertBTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EDF40B1C19762D007D5BE2 /* Debug */,
+				84EDF40C1C19762D007D5BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EDF40D1C19762D007D5BE2 /* Build configuration list for PBXNativeTarget "InvertBTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EDF40E1C19762D007D5BE2 /* Debug */,
+				84EDF40F1C19762D007D5BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EDF3D71C19762C007D5BE2 /* Project object */;
+}
