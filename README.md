@@ -2,6 +2,7 @@
 Invert Binary Tree By Swift
 
 -----------------我是分界线-----
+中序二叉树遍历
 
     //递归中序遍历二叉树
     void InOrder1(BinTree *root)
@@ -14,24 +15,25 @@ Invert Binary Tree By Swift
         }
     }
 
+---
 
     //非递归中序遍历二叉树 --- 用栈实现
     void InOrder2(BinTree *root)
     {
         stack<BinTree *> s;
         while(root != NULL || !s.empty())
-      {
-        if(root != NULL)
         {
-            s.push(root);
-            root = root->lchild;
+           if(root != NULL)
+           {
+              s.push(root);
+              root = root->lchild;
+            }
+            else
+            {
+              root = s.pop();
+              printf("%c",root->data);
+              root = root->rchild;
+            }
         }
-        else
-        {
-            root = s.pop();
-            printf("%c",root->data);
-            root = root->rchild;
-        }
-      }
     }
 
